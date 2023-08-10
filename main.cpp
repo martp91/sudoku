@@ -2,14 +2,14 @@
 
 int main() { 
     auto start = std::chrono::high_resolution_clock::now();
-    Sudoku sudoku;
 
+    Sudoku sudoku;
     sudoku.printBoard();
 
-    if (sudoku.solveHoles()){
-        std::cout << "Solved solution succes:" << std::endl;
-        sudoku.printBoard();
-    }
+    // if (sudoku.solveHoles()){
+    //     std::cout << "Solved solution succes:" << std::endl;
+    //     sudoku.printBoard();
+    // }
 
     sudoku.printSolution();
 
