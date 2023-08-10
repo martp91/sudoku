@@ -1,3 +1,7 @@
+main
+sudoku
+.vscode/*
+.vscode
 # Prerequisites
 *.d
 
