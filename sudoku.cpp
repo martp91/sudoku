@@ -190,6 +190,7 @@ void Sudoku::createHoles()
     }
 
     for (int i = 0; i < Nholes; i++)
+
     {
         while (true)
         {
